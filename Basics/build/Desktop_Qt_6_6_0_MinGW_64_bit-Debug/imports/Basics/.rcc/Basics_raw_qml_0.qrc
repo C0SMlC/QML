@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/qt/qml/Basics/">
+    <file alias="Constants.qml">D:/QML/Basics/imports/Basics/Constants.qml</file>
+    <file alias="DirectoryFontLoader.qml">D:/QML/Basics/imports/Basics/DirectoryFontLoader.qml</file>
+    <file alias="EventListModel.qml">D:/QML/Basics/imports/Basics/EventListModel.qml</file>
+    <file alias="EventListSimulator.qml">D:/QML/Basics/imports/Basics/EventListSimulator.qml</file>
+  </qresource>
+</RCC>
+

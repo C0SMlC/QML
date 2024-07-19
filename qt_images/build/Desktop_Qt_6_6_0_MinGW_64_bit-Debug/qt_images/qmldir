@@ -1,0 +1,4 @@
+module qt_images
+typeinfo appqt_images.qmltypes
+prefer :/qt_images/
+

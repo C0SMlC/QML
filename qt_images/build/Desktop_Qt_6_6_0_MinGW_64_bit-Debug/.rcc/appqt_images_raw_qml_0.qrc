@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt_images/">
+    <file alias="main.qml">D:/QT/qt_images/main.qml</file>
+  </qresource>
+</RCC>
+

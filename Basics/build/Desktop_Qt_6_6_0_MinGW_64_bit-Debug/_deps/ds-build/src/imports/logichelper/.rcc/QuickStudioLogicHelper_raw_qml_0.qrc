@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuick/Studio/LogicHelper/">
+    <file alias="BidirectionalBinding.qml">D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-src/src/imports/logichelper/BidirectionalBinding.qml</file>
+    <file alias="RangeMapper.qml">D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-src/src/imports/logichelper/RangeMapper.qml</file>
+    <file alias="MinMaxMapper.qml">D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-src/src/imports/logichelper/MinMaxMapper.qml</file>
+    <file alias="StringMapper.qml">D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-src/src/imports/logichelper/StringMapper.qml</file>
+    <file alias="OrOperator.qml">D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-src/src/imports/logichelper/OrOperator.qml</file>
+    <file alias="AndOperator.qml">D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-src/src/imports/logichelper/AndOperator.qml</file>
+    <file alias="NotOperator.qml">D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-src/src/imports/logichelper/NotOperator.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt_images">D:/QT/qt_images/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/qt_images</file>
+
+  </qresource>
+</RCC>

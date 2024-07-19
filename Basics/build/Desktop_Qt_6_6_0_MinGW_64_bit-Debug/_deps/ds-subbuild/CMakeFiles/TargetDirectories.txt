@@ -1,0 +1,3 @@
+D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-subbuild/CMakeFiles/ds-populate.dir
+D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-subbuild/CMakeFiles/edit_cache.dir
+D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,14 @@
+-rootPath
+D:/QT/qt_images
+-cmake-output
+-output-file
+D:/QT/qt_images/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appqt_images.cmake
+-importPath
+D:/QT/qt_images/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/qt_images
+-importPath
+D:/QT/qt_images/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.6.0/mingw_64/./qml
+-qrcFiles
+D:/QT/qt_images/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.rcc/qmake_qt_images.qrc
+D:/QT/qt_images/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.rcc/appqt_images_raw_qml_0.qrc

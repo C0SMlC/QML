@@ -1,0 +1,21 @@
+# ninja log v5
+1	182	7416375267757215	ds-populate-prefix/src/ds-populate-stamp/ds-populate-mkdir	16a6224e7fa2e1c1
+1	182	7416375267757215	D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-subbuild/ds-populate-prefix/src/ds-populate-stamp/ds-populate-mkdir	16a6224e7fa2e1c1
+182	9875	7416375364612032	ds-populate-prefix/src/ds-populate-stamp/ds-populate-download	91c15c548f59b097
+182	9875	7416375364612032	D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-subbuild/ds-populate-prefix/src/ds-populate-stamp/ds-populate-download	91c15c548f59b097
+9875	15263	0	ds-populate-prefix/src/ds-populate-stamp/ds-populate-update	b58335585e06b7fd
+9875	15263	0	D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-subbuild/ds-populate-prefix/src/ds-populate-stamp/ds-populate-update	b58335585e06b7fd
+15267	15625	7416375421862813	ds-populate-prefix/src/ds-populate-stamp/ds-populate-patch	4a41b88fb67e2344
+15267	15625	7416375421862813	D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-subbuild/ds-populate-prefix/src/ds-populate-stamp/ds-populate-patch	4a41b88fb67e2344
+15625	15847	7416375424398180	ds-populate-prefix/src/ds-populate-stamp/ds-populate-configure	83e4b77ae7908b22
+15625	15847	7416375424398180	D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-subbuild/ds-populate-prefix/src/ds-populate-stamp/ds-populate-configure	83e4b77ae7908b22
+15847	16045	7416375426400522	ds-populate-prefix/src/ds-populate-stamp/ds-populate-build	b3f6dea323af4e6e
+15847	16045	7416375426400522	D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-subbuild/ds-populate-prefix/src/ds-populate-stamp/ds-populate-build	b3f6dea323af4e6e
+16046	16284	7416375428729803	ds-populate-prefix/src/ds-populate-stamp/ds-populate-install	440141026050e933
+16046	16284	7416375428729803	D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-subbuild/ds-populate-prefix/src/ds-populate-stamp/ds-populate-install	440141026050e933
+16284	16498	7416375430903568	ds-populate-prefix/src/ds-populate-stamp/ds-populate-test	9e003df59acb8a78
+16284	16498	7416375430903568	D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-subbuild/ds-populate-prefix/src/ds-populate-stamp/ds-populate-test	9e003df59acb8a78
+16499	16818	7416375433511157	CMakeFiles/ds-populate-complete	98c795b1bf6ed62d
+16499	16818	7416375433511157	ds-populate-prefix/src/ds-populate-stamp/ds-populate-done	98c795b1bf6ed62d
+16499	16818	7416375433511157	D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-subbuild/CMakeFiles/ds-populate-complete	98c795b1bf6ed62d
+16499	16818	7416375433511157	D:/QML/Basics/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/_deps/ds-subbuild/ds-populate-prefix/src/ds-populate-stamp/ds-populate-done	98c795b1bf6ed62d

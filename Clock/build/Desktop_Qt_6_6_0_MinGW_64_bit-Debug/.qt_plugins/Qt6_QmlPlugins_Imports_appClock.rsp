@@ -1,0 +1,14 @@
+-rootPath
+D:/QML/Clock
+-cmake-output
+-output-file
+D:/QML/Clock/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appClock.cmake
+-importPath
+D:/QML/Clock/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Clock
+-importPath
+D:/QML/Clock/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.6.0/mingw_64/./qml
+-qrcFiles
+D:/QML/Clock/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.rcc/qmake_Clock.qrc
+D:/QML/Clock/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.rcc/appClock_raw_qml_0.qrc

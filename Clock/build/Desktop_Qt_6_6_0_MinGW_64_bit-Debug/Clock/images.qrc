@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/clock">
+        <file>photos/clock.png</file>
+        <file>photos/hour-hand.png</file>
+        <file>photos/minute-hand.png</file>
+        <file>photos/dragon.jpg</file>
+    </qresource>
+</RCC>

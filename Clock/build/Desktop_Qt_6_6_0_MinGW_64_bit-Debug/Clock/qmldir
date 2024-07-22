@@ -1,0 +1,4 @@
+module Clock
+typeinfo appClock.qmltypes
+prefer :/Clock/
+

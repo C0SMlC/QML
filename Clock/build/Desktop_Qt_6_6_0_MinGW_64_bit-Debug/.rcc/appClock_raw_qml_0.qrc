@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/Clock/">
+    <file alias="main.qml">D:/QML/Clock/main.qml</file>
+    <file alias="images.qrc">D:/QML/Clock/images.qrc</file>
+  </qresource>
+</RCC>
+

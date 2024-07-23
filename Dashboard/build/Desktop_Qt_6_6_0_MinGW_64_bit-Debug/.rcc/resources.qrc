@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="resources.qrc">D:/QML/Dashboard/resources.qrc</file>
+  </qresource>
+</RCC>
+

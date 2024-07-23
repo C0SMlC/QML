@@ -1,0 +1,4 @@
+module Dashboard
+typeinfo appDashboard.qmltypes
+prefer :/Dashboard/
+

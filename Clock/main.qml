@@ -7,20 +7,20 @@ Window {
     visible: true
     title: qsTr("Hello World")
 
-    Timer {
-        id: timer
-        interval: 1000 // 1 second
-        running: true
-        repeat: true
-        onTriggered: {
-            var date = new Date()
-            hourHand.rotation = (date.getHours() % 12) * 30 + date.getMinutes() * 0.5
-            minuteHand.rotation = date.getMinutes() * 6
+    // Timer {
+    //     id: timer
+    //     interval: 1000 // 1 second
+    //     running: true
+    //     repeat: true
+    //     onTriggered: {
+    //         var date = new Date()
+    //         hourHand.rotation = (date.getHours() % 12) * 30 + date.getMinutes() * 0.5
+    //         minuteHand.rotation = date.getMinutes() * 6
 
-            console.log("Hour hand Rotation: ", (date.getHours() % 12) * 30 + date.getMinutes() * 0.5);
-            console.log("Minute hand Rotation: ", date.getMinutes() * 6);
-        }
-    }
+    //         console.log("Hour hand Rotation: ", (date.getHours() % 12) * 30 + date.getMinutes() * 0.5);
+    //         console.log("Minute hand Rotation: ", date.getMinutes() * 6);
+    //     }
+    // }
 
     Image {
         id: bgClockImage

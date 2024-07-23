@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/Dashboard">D:/QML/Dashboard/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Dashboard</file>
+
+  </qresource>
+</RCC>

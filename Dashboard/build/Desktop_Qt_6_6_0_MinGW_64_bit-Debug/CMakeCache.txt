@@ -331,6 +331,9 @@ Qt6GuiTools_DIR:PATH=C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6GuiTools
 //The directory containing a CMake configuration file for Qt6Gui.
 Qt6Gui_DIR:PATH=C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6Gui
 
+//The directory containing a CMake configuration file for Qt6Location.
+Qt6Location_DIR:PATH=Qt6Location_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for Qt6Network.
 Qt6Network_DIR:PATH=C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6Network
 
@@ -351,6 +354,9 @@ Qt6QmlTools_DIR:PATH=C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6QmlTools
 
 //The directory containing a CMake configuration file for Qt6Qml.
 Qt6Qml_DIR:PATH=C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6Qml
+
+//The directory containing a CMake configuration file for Qt6QtLocation.
+Qt6QtLocation_DIR:PATH=Qt6QtLocation_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt6Quick.
 Qt6Quick_DIR:PATH=C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6Quick

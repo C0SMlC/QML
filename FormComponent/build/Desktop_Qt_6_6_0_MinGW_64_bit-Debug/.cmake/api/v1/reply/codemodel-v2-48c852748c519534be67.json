@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7f8de53bb13fdfb4c2ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FormComponent",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-7ec909383a007acf5fbe.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-f74d2a7723d97d670cda.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-45c307d8272760df9bcd.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-1ee760a13bfca644ac25.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFormComponent::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFormComponent-Debug-b2494a0db4d95d1007c2.json",
+					"name" : "appFormComponent",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFormComponent_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFormComponent_autogen-Debug-690972e0b1af53735bcb.json",
+					"name" : "appFormComponent_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFormComponent_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFormComponent_autogen_timestamp_deps-Debug-184acdca1a6ce16cbc10.json",
+					"name" : "appFormComponent_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFormComponent_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFormComponent_qmlimportscan-Debug-033783e9b7709985f30b.json",
+					"name" : "appFormComponent_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFormComponent_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFormComponent_qmllint-Debug-ffce028c4682e29662e4.json",
+					"name" : "appFormComponent_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFormComponent_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFormComponent_qmllint_json-Debug-e64c657c4d04d9955e39.json",
+					"name" : "appFormComponent_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFormComponent_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFormComponent_qmllint_module-Debug-db5020bf378282b75610.json",
+					"name" : "appFormComponent_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFormComponent_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFormComponent_qmltyperegistration-Debug-988167631a9d1bdfdebf.json",
+					"name" : "appFormComponent_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFormComponent_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFormComponent_tooling-Debug-608e99a8c479df756719.json",
+					"name" : "appFormComponent_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/QML/FormComponent/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug",
+		"source" : "D:/QML/FormComponent"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

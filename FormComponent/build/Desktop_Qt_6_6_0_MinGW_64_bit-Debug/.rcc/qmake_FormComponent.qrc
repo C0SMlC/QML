@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/FormComponent">
+    <file alias="qmldir">D:/QML/FormComponent/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/FormComponent/qmldir</file>
+  </qresource>
+</RCC>
+

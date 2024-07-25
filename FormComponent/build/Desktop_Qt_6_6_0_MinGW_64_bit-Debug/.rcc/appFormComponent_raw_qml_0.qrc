@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/FormComponent/">
+    <file alias="main.qml">D:/QML/FormComponent/main.qml</file>
+  </qresource>
+</RCC>
+

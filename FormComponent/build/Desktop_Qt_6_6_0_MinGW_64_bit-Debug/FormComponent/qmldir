@@ -1,0 +1,4 @@
+module FormComponent
+typeinfo appFormComponent.qmltypes
+prefer :/FormComponent/
+

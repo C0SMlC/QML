@@ -1,0 +1,7 @@
+module Notes
+typeinfo appNotes.qmltypes
+prefer :/Notes/
+LoginScreen 1.0 UI/LoginScreen.qml
+NotesScreen 1.0 UI/NotesScreen.qml
+AddNoteScreen 1.0 UI/AddNoteScreen.qml
+

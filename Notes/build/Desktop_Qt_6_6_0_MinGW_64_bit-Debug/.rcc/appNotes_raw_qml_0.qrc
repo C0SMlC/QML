@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/Notes/">
+    <file alias="main.qml">D:/QML/Notes/main.qml</file>
+    <file alias="UI/LoginScreen.qml">D:/QML/Notes/UI/LoginScreen.qml</file>
+    <file alias="UI/NotesScreen.qml">D:/QML/Notes/UI/NotesScreen.qml</file>
+    <file alias="UI/AddNoteScreen.qml">D:/QML/Notes/UI/AddNoteScreen.qml</file>
+  </qresource>
+</RCC>
+

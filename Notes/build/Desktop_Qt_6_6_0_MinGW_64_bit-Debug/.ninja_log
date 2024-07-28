@@ -73,3 +73,14 @@
 728	879	7437016324734866	CMakeFiles/appNotes.dir/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.rcc/qrc_appNotes_raw_qml_0.cpp.obj	3bf10e1ab1e6225a
 724	3604	7437016351886391	CMakeFiles/appNotes.dir/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.rcc/qmlcache/appNotes_UI/LoginScreen_qml.cpp.obj	4b4a93bc4c9ff034
 3604	4319	7437016359022821	appNotes.exe	f2539e87fa3d9ec4
+29	566	7438883621913086	Notes/UI/LoginScreen.qml	e6e36119331b5a92
+29	566	7438883621913086	D:/QML/Notes/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Notes/UI/LoginScreen.qml	e6e36119331b5a92
+53	1240	7438883628727465	.qt_plugins/Qt6_QmlPlugins_Imports_appNotes.cmake	99343b1da6508445
+53	1240	7438883628727465	D:/QML/Notes/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appNotes.cmake	99343b1da6508445
+1273	1796	7438883634156618	.rcc/qrc_appNotes_raw_qml_0.cpp	eded2805d25c0e0e
+1273	1796	7438883634156618	D:/QML/Notes/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.rcc/qrc_appNotes_raw_qml_0.cpp	eded2805d25c0e0e
+1241	2215	7438883637085514	.rcc/qmlcache/appNotes_UI/LoginScreen_qml.cpp	d471952daefb8df6
+1241	2215	7438883637085514	D:/QML/Notes/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.rcc/qmlcache/appNotes_UI/LoginScreen_qml.cpp	d471952daefb8df6
+2226	2872	7438883645153713	CMakeFiles/appNotes.dir/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.rcc/qrc_appNotes_raw_qml_0.cpp.obj	3bf10e1ab1e6225a
+2216	8798	7438883704329253	CMakeFiles/appNotes.dir/build/Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.rcc/qmlcache/appNotes_UI/LoginScreen_qml.cpp.obj	4b4a93bc4c9ff034
+8799	11498	7438883731070443	appNotes.exe	f2539e87fa3d9ec4

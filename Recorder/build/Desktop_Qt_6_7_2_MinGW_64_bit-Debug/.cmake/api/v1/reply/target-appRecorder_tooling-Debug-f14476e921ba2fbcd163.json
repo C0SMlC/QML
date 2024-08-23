@@ -1,0 +1,239 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"qt6_target_qml_sources",
+			"qt6_add_qml_module",
+			"qt_add_qml_module",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 647,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2750,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2753,
+				"parent" : 3
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "appRecorder_tooling::@6890427a1f51a3e7e1df",
+	"name" : "appRecorder_tooling",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/Main.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/VideoRecorder.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/AudioRecorder.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/RecordButton.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/TimerDisplay.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/FileSaveDialog.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/RadioButtonGroup.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/RecordHistory.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/PlayAudio.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/PlayerWindow.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/resources.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/Main.qml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/VideoRecorder.qml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/AudioRecorder.qml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/RecordButton.qml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/TimerDisplay.qml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/FileSaveDialog.qml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/RadioButtonGroup.qml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/RecordHistory.qml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/PlayAudio.qml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/PlayerWindow.qml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qml/resources.qrc.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "INTERFACE_LIBRARY"
+}

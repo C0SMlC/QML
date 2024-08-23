@@ -1,0 +1,14 @@
+--resource
+D:/QML/Recorder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_Recorder.qrc
+--resource
+D:/QML/Recorder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appRecorder_raw_qml_0.qrc
+/qt/qml/Recorder/qml/Main.qml
+/qt/qml/Recorder/qml/VideoRecorder.qml
+/qt/qml/Recorder/qml/AudioRecorder.qml
+/qt/qml/Recorder/qml/RecordButton.qml
+/qt/qml/Recorder/qml/TimerDisplay.qml
+/qt/qml/Recorder/qml/FileSaveDialog.qml
+/qt/qml/Recorder/qml/RadioButtonGroup.qml
+/qt/qml/Recorder/qml/RecordHistory.qml
+/qt/qml/Recorder/qml/PlayAudio.qml
+/qt/qml/Recorder/qml/PlayerWindow.qml

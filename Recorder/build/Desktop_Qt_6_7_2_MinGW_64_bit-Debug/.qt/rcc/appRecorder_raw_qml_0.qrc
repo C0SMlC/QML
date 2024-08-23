@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/qt/qml/Recorder/">
+    <file alias="qml/Main.qml">D:/QML/Recorder/qml/Main.qml</file>
+    <file alias="qml/VideoRecorder.qml">D:/QML/Recorder/qml/VideoRecorder.qml</file>
+    <file alias="qml/AudioRecorder.qml">D:/QML/Recorder/qml/AudioRecorder.qml</file>
+    <file alias="qml/RecordButton.qml">D:/QML/Recorder/qml/RecordButton.qml</file>
+    <file alias="qml/TimerDisplay.qml">D:/QML/Recorder/qml/TimerDisplay.qml</file>
+    <file alias="qml/FileSaveDialog.qml">D:/QML/Recorder/qml/FileSaveDialog.qml</file>
+    <file alias="qml/RadioButtonGroup.qml">D:/QML/Recorder/qml/RadioButtonGroup.qml</file>
+    <file alias="qml/RecordHistory.qml">D:/QML/Recorder/qml/RecordHistory.qml</file>
+    <file alias="qml/PlayAudio.qml">D:/QML/Recorder/qml/PlayAudio.qml</file>
+    <file alias="qml/PlayerWindow.qml">D:/QML/Recorder/qml/PlayerWindow.qml</file>
+    <file alias="qml/resources.qrc">D:/QML/Recorder/qml/resources.qrc</file>
+  </qresource>
+</RCC>
+

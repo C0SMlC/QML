@@ -1,0 +1,29 @@
+{
+    "classes": [
+        {
+            "className": "AudioRecorder",
+            "object": true,
+            "qualifiedClassName": "AudioRecorder",
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "startRecording",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "stopRecording",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "audiorecorder.h",
+    "outputRevision": 68
+}

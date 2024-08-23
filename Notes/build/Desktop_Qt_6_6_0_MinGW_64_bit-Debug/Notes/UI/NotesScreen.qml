@@ -4,24 +4,78 @@ import QtQuick.Controls
 Page {
     id: notesScreen
 
+    property color primaryColor: "#232946"
+    property color secondaryColor: "#b8c1ec"
+    property color textColor: "#676767"
+    property color noteColor: "#fffffe"
+
+    Component {
+           id: notePopup
+           Rectangle {
+               id: popupBackground
+               anchors.fill: parent
+               color: "black"
+               opacity: 0.8
+
+               MouseArea {
+                   anchors.fill: parent
+                   onClicked: popupLoader.sourceComponent = undefined
+               }
+
+               Rectangle {
+                   width: parent.width * 0.8
+                   height: parent.height * 0.6
+                   anchors.centerIn: parent
+                   color: noteColor
+                   radius: 10
+
+                   Column {
+                       anchors.fill: parent
+                       anchors.margins: 20
+                       spacing: 10
+
+                       Text {
+                           text: popupLoader.noteTitle
+                           font.pixelSize: 24
+                           font.bold: true
+                       }
+
+                       TextArea {
+                           width: parent.width
+                           height: parent.height - 40
+                           text: "Edit your note here..."
+                           wrapMode: TextEdit.Wrap
+                       }
+                   }
+               }
+           }
+       }
+
+       Loader {
+           id: popupLoader
+           anchors.fill: parent
+           property string noteTitle: ""
+           z: 100
+       }
+
     Rectangle {
         id: customHeader
         anchors.top: parent.top
         width: parent.width
         height: 120
-        color: "#b8c1ec"
+        color: secondaryColor
 
         Rectangle {
             anchors.fill: parent
             anchors.topMargin: -50
-            color: "#232946"
+            color: primaryColor
             radius: 50
         }
 
         Label {
             anchors.centerIn: parent
             text: "Notes"
-            color: "#fffffe"
+            color: noteColor
             font.pixelSize: 34
             font.bold: true
         }
@@ -29,105 +83,55 @@ Page {
 
     background: Rectangle {
         anchors.fill: parent
-        color: "#b8c1ec"
+        color: secondaryColor
     }
 
-    Column {
+    ScrollView {
         anchors.fill: parent
         anchors.topMargin: customHeader.height + 20
-        anchors.leftMargin: 20
-        anchors.rightMargin: 20
-        anchors.bottomMargin: 20
-        spacing: 20
+        anchors.margins: 20
+        clip: true
 
-        Row {
+        GridView {
+            id: notesGrid
             width: parent.width
-            spacing: 10
-
-            Rectangle {
-                width: (parent.width - 10) / 2
+            height: parent.height
+            cellWidth: width / 2
+            cellHeight: 220
+            model: ListModel {
+                ListElement { title: "Note 1" }
+                ListElement { title: "Note 2" }
+                ListElement { title: "Note 3" }
+                ListElement { title: "Note 4" }
+                ListElement { title: "Note 5" }
+                ListElement { title: "Note 6" }
+            }
+            delegate: Rectangle {
+                width: notesGrid.cellWidth - 10
                 height: 200
-                color: "#fffffe"
+                color: noteColor
                 radius: 25
+
                 Text {
-                    text: "Edit Note"
-                    color: "#676767"
+                    text: model.title
+                    color: textColor
                     anchors.centerIn: parent
                 }
-            }
 
-            Rectangle {
-                width: (parent.width - 10) / 2
-                height: 200
-                color: "#fffffe"
-                radius: 25
-                Text {
-                    text: "Edit Note"
-                    color: "#676767"
-                    anchors.centerIn: parent
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: {
+                        console.log("Clicked on", model.title)
+                        popupLoader.noteTitle = model.title
+                        popupLoader.sourceComponent = notePopup
+                    }
                 }
             }
-
         }
+    }
 
-        Row {
-            width: parent.width
-            spacing: 10
-
-            Rectangle {
-                width: (parent.width - 10) / 2
-                height: 200
-                color: "#fffffe"
-                radius: 25
-                Text {
-                    text: "Edit Note"
-                    color: "#676767"
-                    anchors.centerIn: parent
-                }
-            }
-
-            Rectangle {
-                width: (parent.width - 10) / 2
-                height: 200
-                color: "#fffffe"
-                radius: 25
-                Text {
-                    text: "Edit Note"
-                    color: "#676767"
-                    anchors.centerIn: parent
-                }
-            }
-
-        }
-
-        Row {
-            width: parent.width
-            spacing: 10
-
-            Rectangle {
-                width: (parent.width - 10) / 2
-                height: 200
-                color: "#fffffe"
-                radius: 25
-                Text {
-                    text: "Edit Note"
-                    color: "#676767"
-                    anchors.centerIn: parent
-                }
-            }
-
-            Rectangle {
-                width: (parent.width - 10) / 2
-                height: 200
-                color: "#fffffe"
-                radius: 25
-                Text {
-                    text: "Edit Note"
-                    color: "#676767"
-                    anchors.centerIn: parent
-                }
-            }
-
-        }
+    Keys.onReturnPressed: {
+            console.log("Login via Enter key")
+            stackView.pop()
     }
 }

@@ -1,0 +1,19 @@
+[
+    {
+        "classes": [
+            {
+                "className": "videorecorder",
+                "object": true,
+                "qualifiedClassName": "videorecorder",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "videorecorder.h",
+        "outputRevision": 68
+    }
+]

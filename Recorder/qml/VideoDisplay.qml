@@ -2,13 +2,15 @@ import QtQuick
 import QtQuick.Controls
 import Qt.labs.folderlistmodel
 import Qt.labs.platform
+import Qt.labs.settings 1.0
 
 Rectangle {
-    id: recordHistory
-    height: 430
-    width: 1100
+    id: videoRecordHistory
+    height: parent.height
+    width: 400
     color: "#f0f0f0"
     radius: 25
+    visible: false
     property string folderPath: "file:///D:/QML/Recorder/Recordings/"
     property string playAudioName: ""
     signal itemClicked(string audioFilePath)
@@ -26,10 +28,11 @@ Rectangle {
             id: recordingListView
             anchors.fill: parent
             anchors.margins: 10
+
             model: FolderListModel {
                 id: recordingFolderFiles
                 folder: folderPath
-                nameFilters: ["*.m4a"]
+                nameFilters: ["*.mp4"]
                 showDirs: false
                 sortField: FolderListModel.Time
                 sortReversed: true
@@ -113,7 +116,7 @@ Rectangle {
                             onClicked: {
                                 playAudioName = folderPath + '/' + fileName;
                                 console.log("Play recording:", playAudioName)
-                                recordHistory.itemClicked(playAudioName)
+                                videoRecordHistory.itemClicked(playAudioName)
                             }
                         }
 
@@ -140,8 +143,9 @@ Rectangle {
 
     function deleteFile(fileName) {
         let file = StandardPaths.writableLocation(StandardPaths.DocumentsLocation) + "/Recorder/Recordings/" + fileName
-        if (FileInfo.exists(file)) {
-            let result = FileInfo.remove(file)
+        let fileInfo = Qt.createQmlObject('import Qt.labs.platform 1.0; FileInfo {}', videoRecordHistory)
+        if (fileInfo.exists(file)) {
+            let result = fileInfo.remove(file)
             if (result) {
                 console.log("File deleted successfully:", fileName)
                 recordingFolderFiles.refresh()

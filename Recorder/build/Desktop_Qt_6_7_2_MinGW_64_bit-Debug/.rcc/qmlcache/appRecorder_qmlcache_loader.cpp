@@ -61,6 +61,13 @@ namespace _qt_qml_Recorder_qml_RecordHistory_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_Recorder_qml_VideoDisplay_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 namespace _qt_qml_Recorder_qml_PlayAudio_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -97,6 +104,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Recorder/qml/FileSaveDialog.qml"), &QmlCacheGeneratedCode::_qt_qml_Recorder_qml_FileSaveDialog_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Recorder/qml/RadioButtonGroup.qml"), &QmlCacheGeneratedCode::_qt_qml_Recorder_qml_RadioButtonGroup_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Recorder/qml/RecordHistory.qml"), &QmlCacheGeneratedCode::_qt_qml_Recorder_qml_RecordHistory_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Recorder/qml/VideoDisplay.qml"), &QmlCacheGeneratedCode::_qt_qml_Recorder_qml_VideoDisplay_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Recorder/qml/PlayAudio.qml"), &QmlCacheGeneratedCode::_qt_qml_Recorder_qml_PlayAudio_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Recorder/qml/PlayerWindow.qml"), &QmlCacheGeneratedCode::_qt_qml_Recorder_qml_PlayerWindow_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;

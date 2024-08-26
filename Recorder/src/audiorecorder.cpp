@@ -12,7 +12,7 @@
 
 //     // Set up audio input
 //     auto audioInputs = QMediaDevices::audioInputs();
-//     if (!audioInputs.isEmpty()) {
+//     if (!audioInputs.isEmpty()) {a
 //         audioInput = new QAudioInput(audioInputs.first(), this);
 //         recorder->setAudioInput(audioInput);
 //     } else {

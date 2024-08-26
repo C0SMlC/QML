@@ -3,8 +3,8 @@ import QtQuick
 Item {
     id: root
     property bool isRecording: false
-    width: 175
-    height: 175
+    width: 150
+    height: 150
 
     Rectangle {
         id: startStopButton

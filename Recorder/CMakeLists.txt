@@ -24,6 +24,7 @@ qt_add_qml_module(appRecorder
         qml/FileSaveDialog.qml
         qml/RadioButtonGroup.qml
         qml/RecordHistory.qml
+        qml/VideoDisplay.qml
         QML_FILES qml/PlayAudio.qml
         QML_FILES qml/PlayerWindow.qml
         RESOURCES qml/resources.qrc

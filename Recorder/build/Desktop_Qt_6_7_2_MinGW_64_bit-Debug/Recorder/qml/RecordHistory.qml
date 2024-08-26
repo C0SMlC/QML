@@ -9,7 +9,7 @@ Rectangle {
     width: 1100
     color: "#f0f0f0"
     radius: 25
-    property string folderPath: "file:///D:/QML/Recorder/Recordings"
+    property string folderPath: "file:///D:/QML/Recorder/Recordings/"
     property string playAudioName: ""
     signal itemClicked(string audioFilePath)
 
@@ -29,6 +29,7 @@ Rectangle {
             model: FolderListModel {
                 id: recordingFolderFiles
                 folder: folderPath
+                nameFilters: ["*.m4a"]
                 showDirs: false
                 sortField: FolderListModel.Time
                 sortReversed: true

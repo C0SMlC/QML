@@ -13,7 +13,7 @@ Item {
     RowLayout {
         id: layout
         anchors.centerIn: parent
-        anchors.horizontalCenterOffset: -40
+        anchors.horizontalCenterOffset: -30
         spacing: 50
 
         Text {
@@ -38,6 +38,10 @@ Item {
                 leftPadding: audio.indicator.width + audio.spacing + 20
                 verticalAlignment: Text.AlignVCenter
             }
+
+            onClicked: {
+                 videoRecorder.captureSession.camera.stop()
+            }
         }
 
         RadioButton {
@@ -50,6 +54,10 @@ Item {
                 color: "#fafafa"
                 leftPadding: video.indicator.width + video.spacing + 20
                 verticalAlignment: Text.AlignVCenter
+            }
+
+            onClicked: {
+                 videoRecorder.captureSession.camera.start()
             }
         }
     }

@@ -106,13 +106,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 44,
+				"line" : 45,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 39,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
@@ -709,6 +709,18 @@
 				"parent" : 78
 			},
 			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2535,
+				"parent" : 78
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2687,
+				"parent" : 78
+			},
+			{
 				"command" : 27,
 				"file" : 5,
 				"line" : 2770,
@@ -718,19 +730,19 @@
 				"command" : 26,
 				"file" : 0,
 				"line" : 337,
-				"parent" : 113
+				"parent" : 115
 			},
 			{
 				"command" : 25,
 				"file" : 0,
 				"line" : 2390,
-				"parent" : 114
+				"parent" : 116
 			},
 			{
 				"command" : 22,
 				"file" : 0,
 				"line" : 2004,
-				"parent" : 115
+				"parent" : 117
 			},
 			{
 				"command" : 29,
@@ -742,7 +754,7 @@
 				"command" : 22,
 				"file" : 0,
 				"line" : 2117,
-				"parent" : 117
+				"parent" : 119
 			}
 		]
 	},
@@ -959,7 +971,8 @@
 				23,
 				25,
 				27,
-				28
+				29,
+				30
 			]
 		},
 		{
@@ -1172,15 +1185,15 @@
 			"id" : "appRecorder_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "appRecorder_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 79,
 			"id" : "appRecorder_tooling::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
 			"id" : "appRecorder_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "appRecorder_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "appRecorder::@6890427a1f51a3e7e1df",
@@ -1336,17 +1349,17 @@
 			"sourceIndexes" : 
 			[
 				0,
-				33,
-				51,
-				52,
-				53,
+				35,
 				54,
 				55,
 				56,
 				57,
 				58,
 				59,
-				60
+				60,
+				61,
+				62,
+				63
 			]
 		},
 		{
@@ -1369,7 +1382,8 @@
 				23,
 				25,
 				27,
-				28
+				29,
+				30
 			]
 		},
 		{
@@ -1387,18 +1401,17 @@
 				22,
 				24,
 				26,
-				29,
-				30,
+				28,
 				31,
-				32
+				32,
+				33,
+				34
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				34,
-				35,
 				36,
 				37,
 				38,
@@ -1413,7 +1426,10 @@
 				47,
 				48,
 				49,
-				50
+				50,
+				51,
+				52,
+				53
 			]
 		}
 	],
@@ -1569,55 +1585,67 @@
 		},
 		{
 			"backtrace" : 109,
-			"path" : "qml/PlayAudio.qml",
+			"path" : "qml/VideoDisplay.qml",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 110,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_qml/PlayAudio_qml.cpp",
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_qml/VideoDisplay_qml.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 111,
-			"path" : "qml/PlayerWindow.qml",
+			"path" : "qml/PlayAudio.qml",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 112,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_qml/PlayAudio_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 113,
+			"path" : "qml/PlayerWindow.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 114,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_qml/PlayerWindow_qml.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 116,
+			"backtrace" : 118,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appRecorder_raw_qml_0.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 118,
+			"backtrace" : 120,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_Recorder.qrc",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 118,
+			"backtrace" : 120,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Recorder/qmldir",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 118,
+			"backtrace" : 120,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appRecorder_raw_qml_0.qrc",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 118,
+			"backtrace" : 120,
 			"path" : "qml/resources.qrc",
 			"sourceGroupIndex" : 2
 		},
@@ -1697,6 +1725,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_qml/RecordHistory_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_qml/VideoDisplay_qml.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{

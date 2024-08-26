@@ -3,17 +3,24 @@ import QtQuick.Controls
 import Qt.labs.folderlistmodel
 import Qt.labs.platform
 import Qt.labs.settings 1.0
+import QtQuick.Layouts
 
 Rectangle {
     id: videoRecordHistory
-    height: parent.height
+    height: parent.height - 20
     width: 400
     color: "#f0f0f0"
     radius: 25
     visible: false
+    opacity: 0
+
+    Behavior on opacity {
+        NumberAnimation { duration: 250 }
+    }
+
     property string folderPath: "file:///D:/QML/Recorder/Recordings/"
-    property string playAudioName: ""
-    signal itemClicked(string audioFilePath)
+    property string playVideoName: ""
+    signal itemClicked(string videoFilePath)
 
     Rectangle {
         id: listViewBackground
@@ -24,10 +31,22 @@ Rectangle {
         border.color: "#e0e0e0"
         border.width: 1
 
+        // layer.enabled: true
+        // layer.effect: DropShadow {
+        //     transparentBorder: true
+        //     horizontalOffset: 0
+        //     verticalOffset: 2
+        //     radius: 8.0
+        //     samples: 17
+        //     color: "#20000000"
+        // }
+
         ListView {
             id: recordingListView
             anchors.fill: parent
             anchors.margins: 10
+            clip: true
+            spacing: 10
 
             model: FolderListModel {
                 id: recordingFolderFiles
@@ -37,93 +56,106 @@ Rectangle {
                 sortField: FolderListModel.Time
                 sortReversed: true
             }
-            clip: true
-            spacing: 10
 
-            delegate: Rectangle {
+            delegate: Item {
                 width: recordingListView.width
-                height: 70
-                color: "#f9f9f9"
-                radius: 10
-                border.color: "#e0e0e0"
-                border.width: 1
+                height: 80
 
                 Rectangle {
-                    width: 5
-                    height: parent.height
-                    color: "#4CAF50"
-                    radius: 5
-                }
-
-                Rectangle {
-                    id: hoverBackground
                     anchors.fill: parent
-                    color: "#e8f5e9"
-                    opacity: 0
+                    color: "#f9f9f9"
                     radius: 10
-                }
+                    border.color: "#e0e0e0"
+                    border.width: 1
 
-                states: State {
-                    name: "hovered"
-                    when: mouseArea.containsMouse
-                    PropertyChanges { target: hoverBackground; opacity: 0.5 }
-                }
-
-                transitions: Transition {
-                    NumberAnimation { properties: "opacity"; duration: 150 }
-                }
-
-                MouseArea {
-                    id: mouseArea
-                    anchors.fill: parent
-                    hoverEnabled: true
-                }
-
-                Item {
-                    anchors.fill: parent
-                    anchors.leftMargin: 20
-                    anchors.rightMargin: 20
-
-                    Text {
-                        id: fileNameText
-                        text: fileName
-                        width: parent.width * 0.4
-                        elide: Text.ElideRight
-                        anchors.verticalCenter: parent.verticalCenter
-                        font.pixelSize: 16
-                        font.weight: Font.Medium
-                        color: "#333333"
+                    Rectangle {
+                        width: 5
+                        height: parent.height
+                        color: "#4CAF50"
+                        radius: 5
                     }
 
-                    Text {
-                        id: dateText
-                        text: Qt.formatDateTime(fileModified, "yyyy-MM-dd hh:mm:ss")
-                        width: parent.width * 0.3
-                        anchors.left: fileNameText.right
-                        anchors.verticalCenter: parent.verticalCenter
-                        font.pixelSize: 14
-                        color: "#666666"
+                    Rectangle {
+                        id: hoverBackground
+                        anchors.fill: parent
+                        color: "#e8f5e9"
+                        opacity: 0
+                        radius: 10
                     }
 
-                    Row {
-                        anchors.right: parent.right
-                        anchors.verticalCenter: parent.verticalCenter
+                    states: State {
+                        name: "hovered"
+                        when: mouseArea.containsMouse
+                        PropertyChanges { target: hoverBackground; opacity: 0.5 }
+                    }
+
+                    transitions: Transition {
+                        NumberAnimation { properties: "opacity"; duration: 150 }
+                    }
+
+                    MouseArea {
+                        id: mouseArea
+                        anchors.fill: parent
+                        hoverEnabled: true
+                    }
+
+                    RowLayout {
+                        anchors.fill: parent
+                        anchors.margins: 10
                         spacing: 10
 
-                        CustomButton {
-                            id: play
-                            text: "Play"
-                            onClicked: {
-                                playAudioName = folderPath + '/' + fileName;
-                                console.log("Play recording:", playAudioName)
-                                videoRecordHistory.itemClicked(playAudioName)
+                        Rectangle {
+                            width: 60
+                            height: 60
+                            color: "#e0e0e0"
+                            radius: 5
+
+                            Image {
+                                anchors.centerIn: parent
+                                source: "file:///D:/QML/Recorder/resources/video_icon.png"
+                                width: 40
+                                height: 40
+                                fillMode: Image.PreserveAspectFit
                             }
                         }
 
-                        CustomButton {
-                            text: "Delete"
-                            onClicked: {
-                                deleteFile(fileName)
+                        Column {
+                            Layout.fillWidth: true
+                            spacing: 5
+
+                            Text {
+                                text: fileName
+                                font.pixelSize: 16
+                                font.weight: Font.Medium
+                                color: "#333333"
+                                elide: Text.ElideRight
+                                width: parent.width
+                            }
+
+                            Text {
+                                text: Qt.formatDateTime(fileModified, "yyyy-MM-dd hh:mm:ss")
+                                font.pixelSize: 14
+                                color: "#666666"
+                            }
+                        }
+
+                        Column {
+                            spacing: 10
+
+                            CustomButton {
+                                text: "Play"
+                                onClicked: {
+                                    playVideoName = folderPath + '/' + fileName;
+                                    console.log("Play video:", playVideoName)
+                                    videoRecordHistory.itemClicked(playVideoName)
+                                }
+                            }
+
+                            CustomButton {
+                                text: "Delete"
+                                onClicked: {
+                                    deleteFile(fileName)
+                                }
                             }
                         }
                     }

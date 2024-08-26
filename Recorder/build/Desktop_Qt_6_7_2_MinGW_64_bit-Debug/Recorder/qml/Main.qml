@@ -9,10 +9,11 @@ Window {
     title: qsTr("Recorder")
     color: "#009688"
 
-    MouseArea{
+    MouseArea {
         anchors.fill: parent
         onClicked: {
-            if(videoHistory.visible) videoHistory.visible = false
+            if (videoHistory.visible) videoHistory.visible = false
+            if (!menuButton.visible) menuButton.visible = true
         }
     }
 
@@ -20,14 +21,25 @@ Window {
         id: audioRecorder
     }
 
-    VideoDisplay{
+    VideoDisplay {
         id: videoHistory
-        anchors.left:parent.left
-        z:10
+        anchors.left: parent.left
+        anchors.leftMargin: 10
+        anchors.verticalCenter: parent.verticalCenter
+        z: 10
+        opacity: visible ? 0.7 : 0
+        Behavior on opacity {
+            NumberAnimation { duration: 250 }
+        }
+        onItemClicked: {
+            videoRecorder.captureSession.camera.stop()
+            videoPlayer.source = videoFilePath
+            videoPlayer.play()
+        }
     }
 
-
     Rectangle {
+        id: menuButton
         anchors.left: parent.left
         anchors.leftMargin: 20
         anchors.top: parent.top
@@ -35,7 +47,11 @@ Window {
         width: 35
         height: 35
         color: "transparent"
-        visible: radioGroup.checkedButton.text === "Video"
+        visible: opacity > 0
+        opacity: (radioGroup.checkedButton.text === "Video" && !videoHistory.visible) ? 1 : 0
+        Behavior on opacity {
+            NumberAnimation { duration: 250 }
+        }
 
         Image {
             anchors.fill: parent
@@ -48,6 +64,7 @@ Window {
             onClicked: {
                 console.log("Button Clicked")
                 videoHistory.visible = true
+                menuButton.visible = false
             }
         }
     }
@@ -104,29 +121,44 @@ Window {
             id: recordHistory
             anchors.fill: parent
             anchors.margins: parent.padding
-            visible: radioGroup.checkedButton && radioGroup.checkedButton.text === "Audio"
+            opacity: radioGroup.checkedButton && radioGroup.checkedButton.text === "Audio" ? 1 : 0
+            visible: opacity > 0
+            Behavior on opacity {
+                NumberAnimation { duration: 250 }
+            }
             onItemClicked: {
                 playAudio.playAudio(audioFilePath)
             }
         }
 
-        VideoOutput {
-            id:videoOutput
-            anchors.fill: parent
-            anchors.margins: parent.padding
-            visible: radioGroup.checkedButton && radioGroup.checkedButton.text === "Video"
-            transform: Scale {
-                origin.x:videoOutput.width/2
-                origin.y:videoOutput.height/2
-                xScale: -1
-                yScale: 1
-            }
-        }
-    }
+        Video {
+                  id: videoPlayer
+                  anchors.fill: parent
+                  anchors.margins: parent.padding
+                  visible: opacity > 0
+                  opacity: radioGroup.checkedButton && radioGroup.checkedButton.text === "Video" ? 1 : 0
+                  Behavior on opacity {
+                      NumberAnimation { duration: 250 }
+                  }
+              }
 
-    Component.onCompleted: {
-        if (videoRecorder.captureSession) {
-            videoRecorder.captureSession.videoOutput = videoOutput
-        }
-    }
-}
+              VideoOutput {
+                  id: videoOutput
+                  anchors.fill: videoPlayer
+                  visible: videoPlayer.visible
+                  transform: Scale {
+                      origin.x: videoOutput.width/2
+                      origin.y: videoOutput.height/2
+                      xScale: -1
+                      yScale: 1
+                  }
+              }
+          }
+
+          Component.onCompleted: {
+              if (videoRecorder.captureSession) {
+                  videoRecorder.captureSession.videoOutput = videoOutput
+              }
+              videoPlayer.output = videoOutput
+          }
+      }

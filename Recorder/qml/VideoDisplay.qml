@@ -112,7 +112,7 @@ Rectangle {
 
                             Image {
                                 anchors.centerIn: parent
-                                source: "file:///D:/QML/Recorder/resources/video_icon.png"
+                                source: "file:///D:/QML/Recorder/resources/videoThumbnail.png"
                                 width: 40
                                 height: 40
                                 fillMode: Image.PreserveAspectFit

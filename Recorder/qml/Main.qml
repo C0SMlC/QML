@@ -9,6 +9,8 @@ Window {
     title: qsTr("Recorder")
     color: "#009688"
 
+    property bool isPlayingRecordedVideo: false
+
     MouseArea {
         anchors.fill: parent
         onClicked: {
@@ -32,9 +34,11 @@ Window {
             NumberAnimation { duration: 250 }
         }
         onItemClicked: {
+            console.log("Filename from main is ", videoFilePath)
             videoRecorder.captureSession.camera.stop()
             videoPlayer.source = videoFilePath
             videoPlayer.play()
+            isPlayingRecordedVideo = true
         }
     }
 
@@ -98,6 +102,7 @@ Window {
                         audioRecorder.startRecording()
                     } else {
                         videoRecorder.startRecording()
+                        isPlayingRecordedVideo = false
                     }
                 } else {
                     if (radioGroup.checkedButton.text === "Audio") {
@@ -132,33 +137,50 @@ Window {
         }
 
         Video {
-                  id: videoPlayer
-                  anchors.fill: parent
-                  anchors.margins: parent.padding
-                  visible: opacity > 0
-                  opacity: radioGroup.checkedButton && radioGroup.checkedButton.text === "Video" ? 1 : 0
-                  Behavior on opacity {
-                      NumberAnimation { duration: 250 }
-                  }
-              }
+            id: videoPlayer
+            anchors.fill: parent
+            anchors.margins: parent.padding
+            visible: opacity > 0 && isPlayingRecordedVideo
+            opacity: radioGroup.checkedButton && radioGroup.checkedButton.text === "Video" ? 1 : 0
+            Behavior on opacity {
+                NumberAnimation { duration: 250 }
+            }
+        }
 
-              VideoOutput {
-                  id: videoOutput
-                  anchors.fill: videoPlayer
-                  visible: videoPlayer.visible
-                  transform: Scale {
-                      origin.x: videoOutput.width/2
-                      origin.y: videoOutput.height/2
-                      xScale: -1
-                      yScale: 1
-                  }
-              }
-          }
+        VideoOutput {
+            id: videoOutput
+            anchors.fill: parent
+            anchors.margins: parent.padding
+            visible: opacity > 0 && !isPlayingRecordedVideo
+            opacity: radioGroup.checkedButton && radioGroup.checkedButton.text === "Video" ? 1 : 0
+            Behavior on opacity {
+                NumberAnimation { duration: 250 }
+            }
+            transform: Scale {
+                origin.x: videoOutput.width/2
+                origin.y: videoOutput.height/2
+                xScale: -1
+                yScale: 1
+            }
+        }
+    }
 
-          Component.onCompleted: {
-              if (videoRecorder.captureSession) {
-                  videoRecorder.captureSession.videoOutput = videoOutput
-              }
-              videoPlayer.output = videoOutput
-          }
-      }
+    Button {
+        text: "Return to Camera"
+        visible: isPlayingRecordedVideo
+        anchors.bottom: parent.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottomMargin: 20
+        onClicked: {
+            videoPlayer.stop()
+            isPlayingRecordedVideo = false
+            videoRecorder.captureSession.camera.start()
+        }
+    }
+
+    Component.onCompleted: {
+        if (videoRecorder.captureSession) {
+            videoRecorder.captureSession.videoOutput = videoOutput
+        }
+    }
+}

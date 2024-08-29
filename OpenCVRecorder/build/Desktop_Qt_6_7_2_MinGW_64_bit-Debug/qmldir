@@ -1,0 +1,18 @@
+module OpenCVRecorder
+linktarget appOpenCVRecorderplugin
+optional plugin appOpenCVRecorderplugin
+classname OpenCVRecorderPlugin
+typeinfo appOpenCVRecorder.qmltypes
+prefer :/OpenCVRecorder/
+Main 1.0 qml/Main.qml
+VideoRecorder 1.0 qml/VideoRecorder.qml
+AudioRecorder 1.0 qml/AudioRecorder.qml
+RecordButton 1.0 qml/RecordButton.qml
+TimerDisplay 1.0 qml/TimerDisplay.qml
+FileSaveDialog 1.0 qml/FileSaveDialog.qml
+RadioButtonGroup 1.0 qml/RadioButtonGroup.qml
+RecordHistory 1.0 qml/RecordHistory.qml
+VideoDisplay 1.0 qml/VideoDisplay.qml
+PlayAudio 1.0 qml/PlayAudio.qml
+PlayerWindow 1.0 qml/PlayerWindow.qml
+

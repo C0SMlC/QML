@@ -1,0 +1,150 @@
+# ninja log v6
+23	65	7459395502353367	Recorder/Audio.qml	d92469422378fa51
+542	614	7459393353632722	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/meta_types/qt6apprecorder_debug_metatypes.json.gen	58a452e4762d27fb
+243	340	7459393350643285	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_qmlcache_loader.cpp	7131f9aeeae82591
+32	232	7459395503704602	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+24	67	7459393348121933	Recorder/Main.qml	e54be169d6a09063
+32	232	7459395503704602	.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+505	643	7459393353476456	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_qmake_Recorder.cpp	fd73e0c76e611bf9
+24	67	7459393348121933	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/Main.qml	e54be169d6a09063
+341	496	7459393351838488	appRecorder_autogen/timestamp	d7c4e9b1845c944
+243	340	7459393350643285	.rcc/qmlcache/appRecorder_qmlcache_loader.cpp	7131f9aeeae82591
+341	496	7459393351838488	appRecorder_autogen/mocs_compilation.cpp	d7c4e9b1845c944
+542	614	7459393353632722	meta_types/qt6apprecorder_debug_metatypes.json.gen	58a452e4762d27fb
+341	496	7459393351838488	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/appRecorder_autogen/timestamp	d7c4e9b1845c944
+341	496	7459393351838488	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/appRecorder_autogen/mocs_compilation.cpp	d7c4e9b1845c944
+497	542	7459393352889208	meta_types/appRecorder_json_file_list.txt	da40987d337bb155
+408	2067	7459395505801022	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp.obj	79327e4b83c862f8
+497	542	7459393352889208	meta_types/appRecorder_json_file_list.txt.timestamp	da40987d337bb155
+497	542	7459393352889208	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/meta_types/appRecorder_json_file_list.txt	da40987d337bb155
+497	542	7459393352889208	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/meta_types/appRecorder_json_file_list.txt.timestamp	da40987d337bb155
+505	643	7459393353476456	.rcc/qrc_qmake_Recorder.cpp	fd73e0c76e611bf9
+232	408	7459395505331891	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+542	614	7459393353632722	meta_types/qt6apprecorder_debug_metatypes.json	58a452e4762d27fb
+542	614	7459393353632722	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/meta_types/qt6apprecorder_debug_metatypes.json	58a452e4762d27fb
+1055	3927	7459393358060524	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Video_qml.cpp.obj	cc84a7c47c5854d7
+301	3352	7459353021596805	CMakeFiles/appRecorder.dir/audiorecorder.cpp.obj	18da5aab96c67d51
+240	331	7459395504752277	.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+23	65	7459395502353367	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/Audio.qml	d92469422378fa51
+240	331	7459395504752277	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+614	800	7459393354728479	apprecorder_qmltyperegistrations.cpp	4626dc492d7d10d
+2067	2341	7459395522455894	appRecorder.exe	b46b89ee8acee0ce
+614	800	7459393354728479	Recorder/appRecorder.qmltypes	4626dc492d7d10d
+614	800	7459393354728479	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/apprecorder_qmltyperegistrations.cpp	4626dc492d7d10d
+614	800	7459393354728479	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/appRecorder.qmltypes	4626dc492d7d10d
+232	408	7459395505331891	.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+800	1011	7459393357177143	.rcc/qmlcache/appRecorder_Main_qml.cpp	ae0541af941d817d
+800	1011	7459393357177143	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Main_qml.cpp	ae0541af941d817d
+815	1010	7459393357177143	.rcc/qmlcache/appRecorder_Video_qml.cpp	e5f13c1861a360ed
+412	474	7459395505894281	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp.obj	13be3539b35318d6
+1029	1195	7459393357747914	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_qmake_Recorder.cpp.obj	fb43e4d6c839906e
+1015	1126	7459393357726472	CMakeFiles/appRecorder.dir/appRecorder_autogen/mocs_compilation.cpp.obj	1d7cc25a77dea9d1
+1025	3617	7459393357747914	CMakeFiles/appRecorder.dir/apprecorder_qmltyperegistrations.cpp.obj	276960084e99b773
+11	32	7459393345920113	CMakeFiles/clean.additional	baedbe210acaa455
+1020	4051	7459393357747914	CMakeFiles/appRecorder.dir/main.cpp.obj	b328ee1700b78bfe
+40	82	7459393348331437	Recorder/Video.qml	4406cca520f0353d
+1041	4292	7459393357904219	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Main_qml.cpp.obj	9300fa2f795e5762
+1035	4329	7459393357904219	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_qmlcache_loader.cpp.obj	4ebb87a014dd6235
+815	1010	7459393357177143	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Video_qml.cpp	e5f13c1861a360ed
+40	82	7459393348331437	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/Video.qml	4406cca520f0353d
+32	52	7459393346241440	clean	577b940aee94fbd7
+31	75	7459397288002381	Recorder/Audio.qml	d92469422378fa51
+31	75	7459397288002381	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/Audio.qml	d92469422378fa51
+39	226	7459397289363531	.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+39	226	7459397289363531	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+233	328	7459397290410048	.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+233	328	7459397290410048	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+226	394	7459397290993227	.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+226	394	7459397290993227	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+398	455	7459397291412400	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp.obj	13be3539b35318d6
+394	2032	7459397291401186	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp.obj	79327e4b83c862f8
+2033	2303	7459397307645657	appRecorder.exe	b46b89ee8acee0ce
+29	74	7459398501718928	Recorder/Audio.qml	d92469422378fa51
+29	74	7459398501718928	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/Audio.qml	d92469422378fa51
+38	223	7459398503076080	.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+38	223	7459398503076080	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+230	321	7459398503967024	.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+230	321	7459398503967024	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+223	392	7459398504695629	.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+223	392	7459398504695629	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+396	453	7459398505116142	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp.obj	13be3539b35318d6
+392	2016	7459398505094697	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp.obj	79327e4b83c862f8
+2017	2287	7459398521339171	appRecorder.exe	b46b89ee8acee0ce
+29	73	7459398777129516	Recorder/Audio.qml	d92469422378fa51
+29	73	7459398777129516	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/Audio.qml	d92469422378fa51
+37	217	7459398778331672	.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+37	217	7459398778331672	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+225	309	7459398779113711	.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+225	309	7459398779113711	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+217	379	7459398779876918	.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+217	379	7459398779876918	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+384	443	7459398780293820	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp.obj	13be3539b35318d6
+379	1995	7459398780261680	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp.obj	79327e4b83c862f8
+1995	2262	7459398796419822	appRecorder.exe	b46b89ee8acee0ce
+31	71	7459399596743527	Recorder/Audio.qml	d92469422378fa51
+31	71	7459399596743527	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/Audio.qml	d92469422378fa51
+39	220	7459399597989277	.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+39	220	7459399597989277	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+227	312	7459399598873545	.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+227	312	7459399598873545	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+24	63	7459400004584634	Recorder/Audio.qml	d92469422378fa51
+24	63	7459400004584634	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/Audio.qml	d92469422378fa51
+32	210	7459400005790012	.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+32	210	7459400005790012	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+217	302	7459400006701792	.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+217	302	7459400006701792	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+25	71	7459400129423722	Recorder/Audio.qml	d92469422378fa51
+25	71	7459400129423722	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/Audio.qml	d92469422378fa51
+34	215	7459400130624213	.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+34	215	7459400130624213	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+222	313	7459400131515890	.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+222	313	7459400131515890	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+215	383	7459400132251861	.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+215	383	7459400132251861	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+387	459	7459400132666002	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp.obj	13be3539b35318d6
+383	2062	7459400132624628	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp.obj	79327e4b83c862f8
+2063	2339	7459400149331205	appRecorder.exe	b46b89ee8acee0ce
+29	74	7459400253077397	Recorder/Audio.qml	d92469422378fa51
+29	74	7459400253077397	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/Audio.qml	d92469422378fa51
+37	219	7459400254432123	.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+37	219	7459400254432123	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+227	326	7459400255372597	.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+227	326	7459400255372597	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+219	398	7459400256126163	.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+219	398	7459400256126163	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+403	459	7459400256546751	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp.obj	13be3539b35318d6
+398	2003	7459400256535335	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp.obj	79327e4b83c862f8
+2004	2274	7459400272587897	appRecorder.exe	b46b89ee8acee0ce
+30	75	7459400503345505	Recorder/Audio.qml	d92469422378fa51
+30	75	7459400503345505	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/Audio.qml	d92469422378fa51
+39	234	7459400504701236	.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+39	234	7459400504701236	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+243	329	7459400505745612	.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+243	329	7459400505745612	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+234	403	7459400506369374	.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+234	403	7459400506369374	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+407	463	7459400506794763	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp.obj	13be3539b35318d6
+403	2042	7459400506794763	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp.obj	79327e4b83c862f8
+2042	2346	7459400523185473	appRecorder.exe	b46b89ee8acee0ce
+30	68	7459400636372771	Recorder/Audio.qml	d92469422378fa51
+30	68	7459400636372771	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/Audio.qml	d92469422378fa51
+38	221	7459400637573363	.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+38	221	7459400637573363	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+228	313	7459400638650122	.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+228	313	7459400638650122	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+221	385	7459400639253084	.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+221	385	7459400639253084	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+389	445	7459400639671067	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp.obj	13be3539b35318d6
+385	1990	7459400639659489	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp.obj	79327e4b83c862f8
+1990	2259	7459400655581971	appRecorder.exe	b46b89ee8acee0ce
+30	74	7459401894531678	Recorder/Audio.qml	d92469422378fa51
+30	74	7459401894531678	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Recorder/Audio.qml	d92469422378fa51
+40	221	7459401895781667	.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+40	221	7459401895781667	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appRecorder.cmake	6167a660fbd23640
+228	319	7459401896719170	.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+228	319	7459401896719170	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp	1a2aac7333cf7a6f
+221	391	7459401897344964	.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+221	391	7459401897344964	C:/Users/Ram Mourya/Desktop/workspace/Recorder/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp	2e6868ea990ad3a0
+395	456	7459401897812917	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qrc_appRecorder_raw_qml_0.cpp.obj	13be3539b35318d6
+391	2084	7459401897812917	CMakeFiles/appRecorder.dir/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/.rcc/qmlcache/appRecorder_Audio_qml.cpp.obj	79327e4b83c862f8
+2084	2356	7459401914792919	appRecorder.exe	b46b89ee8acee0ce

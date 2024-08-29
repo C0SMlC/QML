@@ -1,0 +1,15 @@
+--resource
+D:/QML/OpenCVRecorder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_OpenCVRecorder.qrc
+--resource
+D:/QML/OpenCVRecorder/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appOpenCVRecorder_raw_qml_0.qrc
+/OpenCVRecorder/qml/Main.qml
+/OpenCVRecorder/qml/VideoRecorder.qml
+/OpenCVRecorder/qml/AudioRecorder.qml
+/OpenCVRecorder/qml/RecordButton.qml
+/OpenCVRecorder/qml/TimerDisplay.qml
+/OpenCVRecorder/qml/FileSaveDialog.qml
+/OpenCVRecorder/qml/RadioButtonGroup.qml
+/OpenCVRecorder/qml/RecordHistory.qml
+/OpenCVRecorder/qml/VideoDisplay.qml
+/OpenCVRecorder/qml/PlayAudio.qml
+/OpenCVRecorder/qml/PlayerWindow.qml
